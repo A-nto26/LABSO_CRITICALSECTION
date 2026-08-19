@@ -40,8 +40,10 @@ Il progetto utilizza Maven: mvn clean package
 Il file .jar viene generato in: target/so-project-1.0-SNAPSHOT.jar
 
 Avvio del Master
+
 java -cp target/so-project-1.0-SNAPSHOT.jar it.univ.so.master.MasterMain 8000
 Avvio di un Peer
+
 java -cp target/so-project-1.0-SNAPSHOT.jar it.univ.so.peer.PeerMain 127.0.0.1 8000
 
 
